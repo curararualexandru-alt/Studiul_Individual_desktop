@@ -1,5 +1,5 @@
 # Comenzile_folsite_pentru_GitHub
-#Toate comenzi pentru commit și push în repository
+Toate comenzi pentru commit și push în repository
 
 1. Inițializare și conectare repository
 
@@ -17,23 +17,12 @@ git status – arată fișierele modificate, nesalvate sau în staging.
 
 git log – arată istoricul commit-urilor.
 
-git log --oneline – versiune scurtă a istoricului.
 
 3. Gestionarea fișierelor (staging area)
 
- Adăugare fișiere în staging
-
-git add <fișier> – adaugă un singur fișier.
-
-git add . – adaugă toate fișierele modificate.
-
- Eliminare fișiere din staging
-
-git reset <fișier> – scoate un fișier din staging.
+git add  – adaugă toate fișierele modificate.
 
 git reset – scoate toate fișierele din staging.
-
- Ștergere fișiere din repository
 
 git rm <fișier> – șterge un fișier din proiect.
 
@@ -59,17 +48,11 @@ git reset --hard HEAD~1 – șterge ultimul commit + modificările.
 
 5. Lucrul cu branch-uri
 
-Creare branch
+git branch <nume_branch> - Creare branch
 
-git branch <nume_branch>
+git checkout <nume_branch> - Schimbare branch
 
-Schimbare branch
-
-git checkout <nume_branch>
-
-Creare + comutare
-
-git checkout -b <nume_branch>
+git checkout -b <nume_branch> - Creare + comutare
 
 6. Sincronizare cu GitHub (push/pull)
 
@@ -86,3 +69,5 @@ Preluare modificări de pe GitHub
 git pull – actualizează localul.
 
 git pull origin main – actualizează branch-ul main.
+
+
