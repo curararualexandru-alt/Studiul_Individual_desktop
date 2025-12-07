@@ -3,7 +3,7 @@
 
 1. Inițializare și conectare repository
 
-1.1. Inițializare proiect Git
+Inițializare proiect Git
 
 git init – creează un repository Git în folderul actual.
 
