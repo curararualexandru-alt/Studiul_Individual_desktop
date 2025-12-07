@@ -1,0 +1,1 @@
+# Studiul_Individual_desktop
